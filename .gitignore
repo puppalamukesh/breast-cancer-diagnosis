@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Trained models are rebuilt with `make train`
+models/*.joblib
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
